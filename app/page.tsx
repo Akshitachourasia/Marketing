@@ -21,7 +21,7 @@ export default function Home() {
   const scrollToWebsiteDesign = () => {
     websiteDesignRef.current?.scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: "end",
       inline: "nearest",
     });
   };
@@ -29,7 +29,7 @@ export default function Home() {
   const scrollToGraphicDesign = () => {
     graphicDesignRef.current?.scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: "end",
       inline: "nearest",
     });
   };
@@ -37,7 +37,7 @@ export default function Home() {
   const scrollToShopifyStores = () => {
     shopifyStoresRef.current?.scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: "end",
       inline: "nearest",
     });
   };
@@ -45,7 +45,7 @@ export default function Home() {
   const scrollToBrands = () => {
     brandsRef.current?.scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: "end",
       inline: "nearest",
     });
   };
@@ -53,7 +53,7 @@ export default function Home() {
   const scrollToServices = () => {
     servicesRef.current?.scrollIntoView({
       behavior: "smooth",
-      block: "start",
+      block: "end",
       inline: "nearest",
     });
   }
@@ -99,7 +99,7 @@ export default function Home() {
           <Brands />
         </div>
 
-        <div id="services" ref={servicesRef}>
+        <div id="service" ref={servicesRef}>
           <Services />
         </div>
         <FAQS />
