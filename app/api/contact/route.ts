@@ -18,7 +18,6 @@ export async function POST(req: Request) {
             const transporter = nodemailer.createTransport({
                 host: "sandbox.smtp.mailtrap.io",
                 port: 2525,
-                secure: true,
                 auth: {
                     user: "8f8788e761fc1e",
                     pass: "509062e95f8329",
